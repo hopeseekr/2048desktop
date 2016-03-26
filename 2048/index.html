@@ -27,6 +27,8 @@
 
     <div class="above-game">
       <p class="game-intro" >Join the numbers and get to the <span style="background-color: #DAB500;color: #ffffff;">2048</span> tile!</p>
+      <p class="game-intro">Hit 'Z' to <a href="#" onclick="handle_undo()">take back one or more moves</a>.</p>
+
       <a class="restart-button" style="display:none;" id="restart-button-id"><img src="new.png" />New Game</a>
     </div>
 
@@ -87,7 +89,7 @@
   </div>
 
   <script src="js/bind_polyfill.js"></script>
-  <script src="js/classlist_polyfill.js"></script>
+  <script src="js/seedrandom.js"></script>
   <script src="js/animframe_polyfill.js"></script>
   <script src="js/keyboard_input_manager.js"></script>
   <script src="js/html_actuator.js"></script>
